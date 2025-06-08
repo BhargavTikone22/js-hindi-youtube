@@ -23,8 +23,8 @@ const bigNumber = 378988913879502849n //bigint
 const heros = ["Shaktiman", "Naagraj", "Doga"] //array
 //object
 let myObj = {
-    name: bhargav, //everything in curly braces {} is object
-    age:20,
+    name: "bhargav", //everything in curly braces {} is object
+    age: 20,
 }
 
 //function
@@ -33,3 +33,29 @@ const myFunction = function(){
 }
 
 console.log(typeof score);
+
+//***********************Stack and Heap*************************
+
+// Stack(primitve),  Heap(Non-Primitive)
+// check eg and diagram on pages 
+
+let myYoutubename = "bhargavtikone.com"
+
+let anothername = myYoutubename
+anothername = "ChaiaurCode"
+
+console.log(myYoutubename);
+console.log(anothername);
+
+// heap memory
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "bhargav@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
