@@ -40,6 +40,7 @@ const myn2 = myArr.splice(1,3) //here it will print from 1st index to 3rd index[
 console.log("C",myArr);
 console.log(myn2);
 // but this is not the answer that interviewer expect...
-// the key difference between slice() and splice() is  that they manipulate the original array.
+// the key difference between slice() 
+// and splice() is  that they manipulate the original array.
 // slice() creates a new array containing a portion of original array itself
 // splice() directly modifies the original array by removing, replacing, or adding elements
