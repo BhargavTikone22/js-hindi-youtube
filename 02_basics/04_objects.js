@@ -77,3 +77,40 @@ console.log(Object.entries(tinderUser));//[keys, values]
 
 console.log(tinderUser.hasOwnProperty('isLoggedIn'));//true or false-->true
 // we can ask manually also
+
+
+
+// video-18
+// **********************object de-structure amd JSon API**************************
+
+// Object destructuring in JavaScript is a concise way to extract values from objects and assign them to variables. It simplifies the process of accessing and using object properties, making code more readable and maintainable. 
+
+const course = {
+    coursename : "js in hindi",
+    price : "999",
+    courseinstructor : "hitesh",
+}
+
+// course.courseinstructor
+
+const {courseinstructor: instructor} = course
+
+// console.log(courseinstructor);
+console.log(instructor);
+// this is object deconstructing and we can also do array deconstructing,we can see on further wards
+
+// JSON
+
+// {
+//     "name": "bhargav",
+//     "coursename": "js in hindi", //these are API calls
+//     "price": "free"
+// }
+// the main difference between JS and JSON is we dont declare the object name
+// hereboth key and values are strings (" ")
+
+[
+    {},
+    {},
+    {}
+]
